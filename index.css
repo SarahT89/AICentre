@@ -186,28 +186,40 @@ form
 .news-container {
   padding: 20px;
   background-color: #f1f1f1;
+
 }
 
 /* Style the input elements and the submit button */
 .news-container input[type=text], .news-container input[type=submit] {
-  width: 100%;
+  width: 65%;
+  max-width: 450px;
   padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
+  margin: 8px auto;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  display: block;
 }
 
 /* Add margins to the checkbox */
 input[type=checkbox] {
   margin-top: 16px;
+
 }
 
+.news-container .checkbox-container {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  max-width: 450px;
+
+}
 /* Style the submit button */
 input[type=submit] {
   background-color: rgb(155,184,211);
   color: white;
   border: none;
+  align-self: center;
+
 }
 
 
