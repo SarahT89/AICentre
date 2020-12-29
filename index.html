@@ -29,27 +29,19 @@
           </div>
       </li>
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Research</a>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </li>
-      <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">People</a>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a href="#">Academic Staff</a>
+          <a href="#">Research Staff</a>
+          <a href="#">Professional Services</a>
         </div>
       </li>
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Resources</a>
+        <a href="javascript:void(0)" class="dropbtn">Research</a>
         <div class="dropdown-content">
           <a href="#">Books</a>
           <a href="#">Papers</a>
-          <a href="#">Link 3</a>
+          <a href="#">Outreach Activities</a>
         </div>
       </li>
       <div class="search-container">
@@ -96,29 +88,53 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo integer malesuada nunc vel risus commodo viverra. Mi sit amet mauris commodo quis imperdiet. Risus nec feugiat in fermentum posuere urna. Egestas erat imperdiet sed euismod nisi porta. Sit amet mauris commodo quis imperdiet. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Eu sem integer vitae justo eget magna fermentum iaculis. Vitae tortor condimentum lacinia quis vel eros. Neque convallis a cras semper auctor neque vitae. Id porta nibh venenatis cras. Ultricies tristique nulla aliquet enim tortor at auctor. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Donec massa sapien faucibus et.</p>
   </div>
 
-  <div class="mailing-list">
-    <h2>Subscribe to our mailing list</h2>
-    <input type="text" name="email-input" value="example@email.com">
-    <button type="button" name="subscribe">Subscribe</button>
-  </div>
+  <form action="action_page.php">
+    <div class="news-container">
+      <h2>Subscribe to our Newsletter</h2>
+    </div>
 
+    <div class="news-container" style="background-color:white">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
+      </label>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Events & Talks
+      </label>
+    </div>
 
+    <div class="news-container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
 
   </body>
 
 
-  <footer>
+<footer>
+    <footer class="site-footer">
 
-    <p>
-      contact us: cs.aimanager@ucl.ac.uk
+      <div class="footer-container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p>Contact Us: aicentre@cs.ucl.ac.uk </p>
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+         <a href="#">UCL AI Centre</a>.
+            </p>
+          </div>
 
-    </p>
-
-    <a href="twitter">twitter</a>
-    <a href="youtube">youtube</a>
-
-
-  </footer>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a class="github" href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
 
 
 </html>
