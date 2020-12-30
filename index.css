@@ -59,7 +59,7 @@ header li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: rgb(155,184,211);}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -89,28 +89,33 @@ header .search-container button:hover {
   background: #ccc;
 }
 
-body div.description {
-  border-style: double;
-  max-width: 80%;
+body div.description-container {
+  color: white;
+  width: 100%;
+  height: 150px;
   margin: auto;
-  margin-top: 10px;
-  padding: 6px;
+  background-image: url("./dots.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: -17px;
+  text-align: justify;
   }
 
-body div.description-container {
-  height: 225px;
-  padding-top: 75px;
+  body div.description {
+    padding: 15px;
+  }
 
-}
 
 body div.public-container {
   margin: auto;
   margin-top: 10px;
   padding: 6px;
   background-color: rgb(155,184,211);
-  color: white;
+  color: black;
   height: 300px;
-  text-align: right;
+  text-align: center;
+  margin-bottom: -17px;
 
 
 }
@@ -130,6 +135,7 @@ body div.partner-container {
   background-color: black;
   color: white;
   height: 300px;
+  margin-bottom: -17px;
 
 
 }
@@ -146,9 +152,10 @@ body div.research-container {
   margin-top: 10px;
   padding: 6px;
   background-color: rgb(155,184,211);
-  color: white;
+  color: black;
   height: 300px;
   text-align: right;
+  margin-bottom: -17px;
 
 
 }
