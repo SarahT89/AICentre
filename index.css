@@ -10,6 +10,10 @@ header img {
   width: 100%;
   margin-bottom: -5px;
 }
+
+h1 {
+  text-align: center;
+}
 h2 {
   text-align: center;
 }
@@ -88,6 +92,23 @@ header .search-container button {
 header .search-container button:hover {
   background: #ccc;
 }
+
+body div.title-container {
+  color: white;
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  background-image: url("./dots.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: -17px;
+  text-align: justify;
+  }
+
+  body div.title {
+    padding: 15px;
+  }
 
 body div.description-container {
   color: white;
@@ -186,17 +207,40 @@ body div.student-container img {
 
 }
 
+body div.content-container {
+  margin: auto;
+  margin-top: 10px;
+  padding: 6px;
+  background-color: rgb(155,184,211);
+  color: black;
+  text-align: justify;
+  margin-bottom: 0px;
+
+}
+
+body div.content {
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+body div.content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+
+
+}
 
 
 form
-/* Add some padding and a grey background color to containers */
 .news-container {
   padding: 20px;
   background-color: #f1f1f1;
 
 }
 
-/* Style the input elements and the submit button */
 .news-container input[type=text], .news-container input[type=submit] {
   width: 65%;
   max-width: 450px;
@@ -207,7 +251,6 @@ form
   display: block;
 }
 
-/* Add margins to the checkbox */
 input[type=checkbox] {
   margin-top: 16px;
 
@@ -220,7 +263,7 @@ input[type=checkbox] {
   max-width: 450px;
 
 }
-/* Style the submit button */
+
 input[type=submit] {
   background-color: rgb(155,184,211);
   color: white;
@@ -228,6 +271,8 @@ input[type=submit] {
   align-self: center;
 
 }
+
+
 
 
 
