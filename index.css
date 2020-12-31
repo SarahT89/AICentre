@@ -251,9 +251,29 @@ body div.content img {
   margin-right: auto;
   padding: 25px;
 
+}
+
+body div.content a {
+  color: black
+}
+
+body div.short-paragraphs {
+  max-width: 67%;
+  background-color: white;
+  margin: auto;
 
 }
 
+body div.short-paragraphs p {
+  text-align: center;
+  padding: 10px;
+
+}
+
+body div.short-paragraphs li {
+  margin-left: 150px;
+  padding: 10px;
+}
 
 form
 .news-container {
