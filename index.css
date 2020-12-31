@@ -61,6 +61,7 @@ header li.dropdown {
   text-decoration: none;
   display: block;
   text-align: left;
+  background-color: lightgrey;
 }
 
 .dropdown-content a:hover {background-color: rgb(155,184,211);}
@@ -93,6 +94,11 @@ header .search-container button:hover {
   background: #ccc;
 }
 
+body p {
+ margin-left: 12px;
+ margin-right: 12px;
+}
+
 body div.title-container {
   color: white;
   width: 100%;
@@ -123,7 +129,7 @@ body div.description-container {
   text-align: justify;
   }
 
-  body div.description {
+body div.description {
     padding: 15px;
   }
 
@@ -135,10 +141,13 @@ body div.public-container {
   background-color: rgb(155,184,211);
   color: black;
   height: 300px;
-  text-align: center;
+  text-align: justify;
   margin-bottom: -17px;
 
+}
 
+body div.public-container a {
+  color: black;
 }
 
 body div.public-container img {
@@ -146,8 +155,8 @@ body div.public-container img {
   height: 250px;
   padding: 25px;
 
-
 }
+
 
 body div.partner-container {
   margin: auto;
@@ -157,8 +166,13 @@ body div.partner-container {
   color: white;
   height: 300px;
   margin-bottom: -17px;
+  text-align: justify;
 
 
+}
+
+body div.partner-container a {
+  color: white;
 }
 
 body div.partner-container img {
@@ -175,10 +189,13 @@ body div.research-container {
   background-color: rgb(155,184,211);
   color: black;
   height: 300px;
-  text-align: right;
+  text-align: justify;
   margin-bottom: -17px;
 
+}
 
+body div.research-container a {
+  color: black;
 }
 
 body div.research-container img {
@@ -205,6 +222,10 @@ body div.student-container img {
   height: 250px;
   padding: 25px;
 
+}
+
+body div.student-container a {
+  color: white;
 }
 
 body div.content-container {
@@ -271,11 +292,6 @@ input[type=submit] {
   align-self: center;
 
 }
-
-
-
-
-
 
 
 
@@ -438,4 +454,8 @@ input[type=submit] {
     margin-right:0;
     font-weight:600
   }
+}
+
+.site-footer p {
+  margin-left: 12px;
 }
