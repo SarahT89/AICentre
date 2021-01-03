@@ -310,6 +310,11 @@ input[type=checkbox] {
 
 }
 
+form div.news-container p {
+  text-align: center;
+  font-size: 10px;
+}
+
 input[type=submit] {
   background-color: rgb(155,184,211);
   color: white;
